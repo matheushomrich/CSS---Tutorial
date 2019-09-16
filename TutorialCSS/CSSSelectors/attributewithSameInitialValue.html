@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* Starts with the top but needs somethin to separate it so it can acknowledge it */
+/* 
+[class|=top] {
+  background: yellow;
+} */
+
+/* 
+Gets the the right action if the value starts n the same way as proposed */
+
+[class^="top"] {
+  background: yellow;
+}
+
+</style>
+</head>
+<body>
+
+<h1 class="top-header">Welcome</h1>
+<p class="top-text">Hello world!</p>
+<p class="topcontent">Are you learning CSS?</p>
+
+<p><b>Note:</b> For [<i>attribute</i>|=<i>value</i>] to work in IE8 and earlier, a DOCTYPE must be declared.</p>
+
+</body>
+</html>
